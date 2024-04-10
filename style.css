@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.resume {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doe {
+    margin-left: 20px;
+}
+
+.pdf {
+    margin-right: 20px;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list h1 {
+    font-style: italic;
+}
+
+.progressively {
+    margin-left: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.web,
+.interface,
+.project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.half2 {
+    margin-top: 20px;
+}
